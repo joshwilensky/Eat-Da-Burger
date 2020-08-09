@@ -20,7 +20,7 @@
 
 ### [Tests](#Tests)
 
-### [Questions](#Email the Author)
+### [Questions](#Questions)
 
 ### [Github](#Github)
 
