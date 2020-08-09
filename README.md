@@ -43,7 +43,7 @@ Eat-Da-Burger! is a restaurant app that lets users input the names of burgers th
 
 ### <a name="Usage"></a>Usage
 
-AS A user, I want to be able to write and save notes
+I created a burger logger with *MySQL, *Node, *Express, *Handlebars and ORM . MVC design pattern. Node and MySQL to query and route data in my app, and Handlebars to generate my HTML.
 
 ### <a name="License"></a>License
 
@@ -74,8 +74,7 @@ Joshua Wilensky
 
 ### <a name="Tests"></a>Tests
 
-- [x] npm init
-- [x] npm install
+- [x] nodemon
 
 ### <a name="Questions"></a>Questions
 

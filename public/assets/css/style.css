@@ -1,11 +1,13 @@
 * {
   box-sizing: border-box;
+  background-color: rgb(245, 201, 90)
 }
 
 body {
   position: relative;
   font-family: "Passion One", cursive;
   font-size: 2em;
+  text-align: center;
 }
 
 body:after {
