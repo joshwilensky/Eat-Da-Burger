@@ -16,11 +16,11 @@
 
 ### [License](#License)
 
-### [Contributing](#Author)
+### [Contributing](#Contributions)
 
 ### [Tests](#Tests)
 
-### [Questions](#Email Me)
+### [Email](#Email the Author)
 
 ### [Github](#Github)
 
@@ -70,9 +70,11 @@ SOFTWARE.
 
 ---
 
-### <a name="Contributing"></a>Author(s):
+### <a name="Contributing"></a>Contributions:
 
-Joshua Wilensky
+Ben Wright
+Justin Pinero
+Benjamin Benson
 
 ---
 
