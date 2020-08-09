@@ -26,27 +26,27 @@
 
 ---
 
-### <a name="Description"></a>Description
+### <a name="Description"></a>Descriptions:
 
 Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat. Whenever a user submits a burger's name, the app will display the burger on the left side of the page -- waiting to be devoured. Each burger in the waiting area also has a Devour it! button. When the user clicks it, the burger will move to the right side of the page. The app will store every burger in a database, whether devoured or not.
 
 ---
 
-### <a name="Screenshots"></a>Screenshots
+### <a name="Screenshots"></a>Screenshots:
 
 ---
 
-### <a name="Installation"></a>Installation
+### <a name="Installation"></a>Installations:
 
-I created a burger logger with `MySQL`, `Node`, `Express`, `Handlebars`, `ORM` and `MVC` design pattern. `npm init`, `npm install`, `npm mysql', 'nmp express' and 'npm express-handlebars`. I also used `Node` and `MySQL` to query and route data in my app, and Handlebars to generate my `HTML`.
+I created a burger logger with **MySQL**, **Node**, **Express**, **Handlebars**, **ORM** and **MVC** design pattern. `npm init`, `npm install`, `npm mysql', 'npm express' and 'npm express-handlebars`. I also used **Node** and **MySQL** to query and route data in my app, and Handlebars to generate my **HTML**.
 
-### <a name="Usage"></a>Usage
+### <a name="Usage"></a>Usages:
 
 The user is able to view a list of Burgers that are on the menu, view a list of Burgers that have been eaten and even add their own Burger to either list mentionned above.
 
 ---
 
-### <a name="License"></a>License
+### <a name="License"></a>License:
 
 **MIT License Copyright (c) 2020 Joshua Wilensky**
 
@@ -70,32 +70,24 @@ SOFTWARE.
 
 ---
 
-### <a name="Contributing"></a>Contributions
+### <a name="Contributing"></a>Author(s):
 
 Joshua Wilensky
 
 ---
 
-### <a name="Tests"></a>Tests
+### <a name="Tests"></a>Tests:
 
 - [x] nodemon
 
 ---
 
-### <a name="Questions"></a>Questions
+### <a name="Questions"></a>Questions:
 
 joshwilensky@gmail.com
 
 ---
 
-### <a name="Github"></a>GitHub Account
+### <a name="Github"></a>GitHub Account:
 
 http://github.com/joshwilensky
-
-```
-
-```
-
-```
-
-```
