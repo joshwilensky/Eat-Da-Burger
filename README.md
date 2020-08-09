@@ -20,7 +20,7 @@
 
 ### [Tests](#Tests)
 
-### [Email](#Email the Author)
+### [Questions](#Email the Author)
 
 ### [Github](#Github)
 
@@ -72,9 +72,9 @@ SOFTWARE.
 
 ### <a name="Contributing"></a>Contributions:
 
-Ben Wright
-Justin Pinero
-Benjamin Benson
+- Ben Wright
+- Justin Pinero
+- Benjamin Benson
 
 ---
 
@@ -84,7 +84,7 @@ Benjamin Benson
 
 ---
 
-### <a name="Questions"></a>Email Me:
+### <a name="Questions"></a>Email the Author:
 
 joshwilensky@gmail.com
 
