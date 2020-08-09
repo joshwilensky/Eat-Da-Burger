@@ -38,14 +38,7 @@ Eat-Da-Burger! is a restaurant app that lets users input the names of burgers th
 
 ### <a name="Installation"></a>Installation
 
-- VS Code
-- NPM
-  - [x] express
-  - [x] express-handlebars
-  - [x] mysql
-- Heroku
-
----
+## `npm init`
 
 ### <a name="Usage"></a>Usage
 
@@ -98,3 +91,11 @@ joshwilensky@gmail.com
 ### <a name="Github"></a>GitHub Account
 
 http://github.com/joshwilensky
+
+```
+
+```
+
+```
+
+```
