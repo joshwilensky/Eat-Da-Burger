@@ -38,11 +38,11 @@ Eat-Da-Burger! is a restaurant app that lets users input the names of burgers th
 
 ### <a name="Installation"></a>Installation
 
-## `npm init`
+I created a burger logger with `**MySQL**`, `**Node**`, `**Express**`, `**Handlebars**` and `**ORM**`. `**MVC**` design pattern. `**Node**` and `**MySQL**` to query and route data in my app, and Handlebars to generate my `**HTML**`.
 
 ### <a name="Usage"></a>Usage
 
-I created a burger logger with **MySQL**, **Node**, **Express**, **Handlebars** and **ORM** . **MVC** design pattern. **Node** and **MySQL** to query and route data in my app, and Handlebars to generate my **HTML**.
+The user is able to view a list of Burgers that are on the menu, view a list of Burgers that have been eaten and even add their own Burger to either list mentionned above.
 
 ---
 
