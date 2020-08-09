@@ -47,8 +47,7 @@ I created a burger logger with **MySQL**, **Node**, **Express**, **Handlebars** 
 
 ### <a name="License"></a>License
 
-MIT License
-Copyright (c) 2020 Joshua Wilensky
+**MIT License Copyright (c) 2020 Joshua Wilensky**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
