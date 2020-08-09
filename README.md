@@ -6,21 +6,21 @@
 
 ---
 
-### [Description](#Description)
+### [Description](#Descriptions)
 
 ### [Screenshots](#Screenshots)
 
-### [Installation](#Installation)
+### [Installation](#Installations)
 
-### [Usage](#Usage)
+### [Usage](#Usages)
 
 ### [License](#License)
 
-### [Contributing](#Contributing)
+### [Contributing](#Author)
 
 ### [Tests](#Tests)
 
-### [Questions](#Questions)
+### [Questions](#Email Me)
 
 ### [Github](#Github)
 
@@ -82,7 +82,7 @@ Joshua Wilensky
 
 ---
 
-### <a name="Questions"></a>Questions:
+### <a name="Questions"></a>Email Me:
 
 joshwilensky@gmail.com
 
