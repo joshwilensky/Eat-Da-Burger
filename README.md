@@ -22,7 +22,7 @@
 
 ### [Questions](#Questions)
 
-### [Github](#GitHub)
+### [GitHub](#GitHub)
 
 ---
 
