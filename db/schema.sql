@@ -7,3 +7,16 @@ CREATE TABLE burgers (
   devoured BOOLEAN DEFAULT false,
   PRIMARY KEY (id)
 );
+INSERT INTO
+  burgers (burger_name)
+VALUES
+  ('The Impossible Solution Burger'),
+  ('What Shiitake About Burger'),
+  ('Top Bun Burger'),
+  ('Little Swiss Sunshine Burger'),
+  ('The Squeezy Cheesey Bacon Burger'),
+  ('Sweet Home Avocado');
+SELECT
+  *
+FROM
+  burgers
