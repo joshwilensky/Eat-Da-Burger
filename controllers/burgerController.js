@@ -1,5 +1,8 @@
+// DEPENDENCIES
 var express = require("express");
 var router = express.Router();
+
+// SET UP BURGERS.JS CONNECTION
 var burger = require("../models/burgers.js");
 
 // GET ROUTE

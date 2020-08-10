@@ -1,20 +1,10 @@
+USE burgers_db;
 INSERT INTO
-  burgers (name, devoured)
+  burgers (burger_name)
 VALUES
-  ('The Impossible Solution Burger', NULL);
-INSERT INTO
-  burgers (name, devoured)
-VALUES
-  ('What Shiitake About Burger', NULL);
-INSERT INTO
-  burgers (name, devoured)
-VALUES
-  ('Top Bun Burger', NULL);
-INSERT INTO
-  burgers (name, devoured)
-VALUES
-  ('Little Swiss Sunshine Burger', NULL);
-INSERT INTO
-  burgers (name, devoured)
-VALUES
-  ('The Squeezy Cheesey Bacon Burger', NULL);
+  ('The Impossible Solution Burger'),
+  ('What Shiitake About Burger'),
+  ('Top Bun Burger'),
+  ('Little Swiss Sunshine Burger'),
+  ('The Squeezy Cheesey Bacon Burger'),
+  ('Sweet Home Avocado')

@@ -1,28 +1,15 @@
-<h1>Eat-Da-Burger!</h1>
+<header>
+  <h1><img
+      src="https://images.vexels.com/media/users/3/152676/isolated/lists/4901900ec6cd623e843598a78d23eefa-triple-cheeseburger-icon.png"
+      alt="burger"></h1>
+  <h1>EAT-DA-BURGER!</h1>
+  <h2><i>Order & Devour Your Favorite Burgers!</i></h2>
+</header>
 
-<h2>Burgers that are NOT devoured!</h2>
-
-<ul>
-  {{#each burgers}}
-  {{#unless devoured}}
-  {{> burgers/burger-block}}
-  {{/unless}}
-  {{/each}}
-</ul>
-<div class="jumbotron jumbotron-fluid">
-  <div class="container title border">
-    <h1 class="display-4"> EAT-DA-BURGERRRRRR</h1>
-    <p class="lead">Order and enjoy some delicious burgers from all around the world!</p>
-  </div>
-</div>
-
-<div class="container">
-  <div class="row mb-3">
-    <div class="tobeeaten col-sm-4 border p-1">
-      <h5 class="text-center py-1">Burgers TO BE EATEN!</h5>
-      <img class="mx-auto d-block pb-4" style="width: 150px"
-        src="https://images.unsplash.com/photo-1553979459-d2229ba7433b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-        alt="burger shot">
+<div class="container" style="text-align: -webkit-center; padding-top: 2%">
+  <div class="row mb-3" style="justify-content: center">
+    <div class="tobedevoured col-sm-4">
+      <h5 class="text-center py-1">BURGERS TO BE POUNDED!</h5>
       <ul>
         {{#each burgers}}
         {{#unless devoured}}
@@ -31,11 +18,9 @@
         {{/each}}
       </ul>
     </div>
-    <div class="toeat col-sm-4 border">
-      <h5 class="text-center py-1">Burgers that are IN YOUR BELLY!</h5>
-      <img class="mx-auto d-block pb-4" style="width: 170px"
-        src="https://images.unsplash.com/photo-1496904825141-cf5c62bd7526?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-        alt="burger bite">
+
+    <div class="toeat col-sm-4">
+      <h5 class="text-center py-1">BURGERS YOU ANNIHALATED!</h5>
       <ul class="burgers-devoured">
         {{#each burgers}}
         {{#if devoured}}
@@ -44,63 +29,27 @@
         {{/each}}
       </ul>
     </div>
-    <div class="toadd col-sm-4 border">
-      <h5 class="text-center py-1">Add your Burger</h5>
-      <img class="mx-auto d-block pb-4" style="width: 180px"
-        src="https://images.unsplash.com/photo-1471111471478-429bc38f2da4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-        alt="fresh ingredient board">
-      <form class="create-form mx-auto">
+  </div>
 
-        <div class="form-group">
-          <label for="ca"></label>
-          <input class="mx-auto d-block" placeholder="Enter a Burger Name" type="text" id="ca" name="name">
-        </div>
+  <div class="toadd col-sm-4">
+    <h5 class="text-center py-1">ADD YOUR BURGER</h5>
+    <form class="create-form mx-auto">
+      <div class="form-group">
+        <input class="mx-auto d-block" placeholder="Enter a Burger Name" type="text" id="ca" name="name">
+        <label for="ca"></label>
+      </div>
 
-        <div class="form-group">
-          <label for="eaten">Check one of the lists to add your new BURGER</label><br>
-          <input type="radio" name="eaten" value="1" checked> Add to the DEVOURED list!<br>
-          <input type="radio" name="eaten" value="0"> Add to the MENU!
-        </div>
-
-        <button type="submit">Add Burger</button>
-      </form>
-      <p class="mt-3">Get some inspiration...</p>
-      <img class="mt-1 mx-auto d-block" style="width: 210px"
-        src="https://sayingimages.com/wp-content/uploads/bohemian-radishy-burger-meme.png" alt="burger mood board">
-    </div>
+      <div class="form-group1">
+        <label for="devoured">Check one of the lists to add your new BURGER</label><br>
+        <input type="radio" name="devoured" value="1" checked> ADD TO THE DEVOURED LIST!<br>
+        <input type="radio" name="devoured" value="0"> ADD TO THE DREAM LIST!
+      </div>
+      <input class="btn btn-primary" type="submit" value="Submit">
   </div>
 </div>
 
-<footer class="footer text-muted text-center">
-  <blockquote class="blockquote mb-0">
-    <p>“The best stories are like the best burgers: big, juicy, and messy.”</p>
-    <cite title="Source Title">A.D. Posey</cite>
-  </blockquote>
-</footer>
-
-<h2>Burgers that are devoured!</h2>
-
-<ul>
-  {{#each burgers}}
-  {{#if devoured}}
-  {{> burgers/burger-block}}
-  {{/if}}
-  {{/each}}
-</ul>
-
-<h2>Add a Burger</h2>
-<form class="create-form">
-
-  <div class="form-group">
-    <label for="ca">Burger Name:</label>
-    <input type="text" id="ca" name="name">
-  </div>
-
-  <div class="form-group">
-    <label for="devoured">Devoured?</label><br>
-    <input type="radio" name="devoured" value="1" checked> Devoured!<br>
-    <input type="radio" name="devoured" value="0"> Fresh
-  </div>
-
-  <button type="submit">Add Burger</button>
-</form>
+<div class="footer">
+  <p>"I was at a restaurant, I saw a guy wearing a leather jacket at the same time he was eating a hamburger and
+    drinking a glass of milk. I said "Dude, you are a cow. The metamorphosis is complete. Don't fall asleep, or I will
+    tip you over." ~ Mitch Hedberg</p>
+</div>
