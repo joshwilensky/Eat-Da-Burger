@@ -4,19 +4,22 @@
       alt="burger"></h1>
   <h1>EAT-DA-BURGER!</h1>
   <h2><i>Order & Devour Your Favorite Burgers!</i></h2>
+  <p>"I was at a restaurant, I saw a guy wearing a leather jacket at the same time he was eating a hamburger and
+    drinking a glass of milk. I said, "Dude, you are a cow. The metamorphosis is complete. Don't fall asleep, or I will
+    tip you over." ~ Mitch Hedberg</p>
+
 </header>
 
 <div class="container" style="text-align: -webkit-center; padding-top: 2%">
   <div class="row mb-3" style="justify-content: center">
     <div class="tobedevoured col-sm-4">
       <h5 class="text-center py-1">BURGERS TO BE POUNDED!</h5>
-      <ul>
-        {{#each burgers}}
-        {{#unless devoured}}
-        {{> burgers/burger-block}}
-        {{/unless}}
-        {{/each}}
-      </ul>
+
+      {{#each burgers}}
+      {{#unless devoured}}
+      {{> burgers/burger-block}}
+      {{/unless}}
+      {{/each}}
     </div>
 
     <div class="toeat col-sm-4">
@@ -41,8 +44,8 @@
 
       <div class="form-group1">
         <label for="devoured">Check one of the lists to add your new BURGER</label><br>
-        <input type="radio" name="devoured" value="1" checked> ADD TO THE DEVOURED LIST!<br>
-        <input type="radio" name="devoured" value="0"> ADD TO THE DREAM LIST!
+        <input type="radio" name="devoured" value="1" checked> ADD TO THE "BURGERS TO BE POUNDED" LIST!<br>
+        <input type="radio" name="devoured" value="0"> ADD TO THE "DEVOURED" LIST!
       </div>
       <input class="btn btn-primary" type="submit" value="Submit">
   </div>
