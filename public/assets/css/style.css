@@ -1,8 +1,19 @@
+#burger {
+  height: 175px;
+  width: 175px;
+}
+
 h1,
 h2 {
   text-align: center;
   color: red;
-  padding-bottom: 1%;
+  font-family: 'Pangolin', cursive;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.input-group {
+  padding-left: 35%;
+  padding-right: 35%;
 }
 
 .button,
@@ -11,7 +22,6 @@ h2 {
 }
 
 header,
-footer,
 .body4 {
   background-color: rgb(248, 196, 99);
   padding-top: 2%;
@@ -21,16 +31,29 @@ p {
   position: center;
   color: black;
   text-align: center;
-  padding-left: 15%;
-  padding-right: 15%;
-  font-weight: bold;
+  padding-left: 14.7%;
+  padding-right: 14.7%;
+  font-family: 'Pangolin', cursive;
+  font-family: 'Permanent Marker', cursive;
+  font-size: large;
 }
 
-.tobedevoured,
-.toeat,
 .toadd {
   background-color: rgb(248, 196, 99);
   margin-right: 10%;
+  font-family: 'Pangolin', cursive;
+  font-family: 'Permanent Marker', cursive;
+  font-size: large;
+}
+
+.tobedevoured,
+.toeat {
+  background-color: rgb(248, 196, 99);
+  margin-right: 10%;
+  font-family: 'Pangolin', cursive;
+  font-family: 'Permanent Marker', cursive;
+  border-style: solid;
+  border-radius: 5%;
 }
 
 li {

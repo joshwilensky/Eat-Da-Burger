@@ -6,4 +6,5 @@ VALUES
   ('Top Bun Burger'),
   ('Little Swiss Sunshine Burger'),
   ('The Squeezy Cheesey Bacon Burger'),
-  ('Sweet Home Avocado')
+  ('Sweet Home Avocado'),
+  ('Katzen Burger')

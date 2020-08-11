@@ -5,6 +5,10 @@ CREATE TABLE burgers (
   devoured BOOLEAN DEFAULT false,
   PRIMARY KEY (id)
 );
+SELECT
+  *
+FROM
+  burgers;
 INSERT INTO
   burgers (burger_name)
 VALUES
@@ -14,7 +18,3 @@ VALUES
   ('Little Swiss Sunshine Burger'),
   ('The Squeezy Cheesey Bacon Burger'),
   ('Sweet Home Avocado');
-SELECT
-  *
-FROM
-  burgers
