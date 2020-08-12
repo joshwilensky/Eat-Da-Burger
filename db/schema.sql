@@ -18,4 +18,5 @@ VALUES
   ('Little Swiss Sunshine Burger'),
   ('The Fleetwood Jack Burger'),
   ('Sweet Home Avocado Burger'),
-  ('Foot Feta-ish Burger')
+  ('Foot Feta-ish Burger'),
+  ('')
