@@ -16,6 +16,6 @@ VALUES
   ('What Shiitake About Burger'),
   ('Top Bun Burger'),
   ('Little Swiss Sunshine Burger'),
-  ('The Squeezy Cheesey Bacon Burger'),
-  ('Sweet Home Avocado'),
-  ('KatzenBurger')
+  ('The Fleetwood Jack Burger'),
+  ('Sweet Home Avocado Burger'),
+  ('Foot Feta-ish Burger')
