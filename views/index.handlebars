@@ -1,47 +1,43 @@
-<header>
-  <h1><img src="https://burger-database-sequelize.herokuapp.com/assets/images/burger.png" alt="burger" id="burger"></h1>
-  <h1>EAT-DA-BURGER!</h1>
-  <h2><i>Order & Devour Your Favorite Burgers!</i></h2>
-  <hr size="6" width="90%" color="red">
-
-  <p>"I was at a restaurant, I saw a guy wearing a leather jacket at the same time he was eating a hamburger and
-    drinking a glass of milk. I said, "Dude, you are a cow. The metamorphosis is complete. Don't fall asleep, or I will
-    tip you over." ~ Mitch Hedberg</p>
-  <hr size="6" width="90%" color="red">
-
-</header>
-
-<div class="toadd col-sm-4" style="max-width: inherit">
-  <h5 class="text-center py-1">Place Your Order Here:</h5>
-  <div class="form-group">
-    <input type="text" id="ca" name="burger_name">
-    <button type="button" class="btn btn-primary create-form">Submit</button>
+<div class="row">
+  <div class="col">
+    <img src="https://burger-database-sequelize.herokuapp.com/assets/images/burger.png" alt="burger" id="id">
   </div>
 </div>
 
-<div class="container" style="text-align: -webkit-center; padding-top: 1%">
-  <div class="row mb-3" style="justify-content: center">
-    <div class="tobedevoured col-sm-5">
-      <h5 class="text-center py-1">BURGERS TO BE POUNDED!</h5>
-      <ul class="burgers-devoured">
-        {{#each burger_data}}
-        {{#unless devoured}}
-        {{> burgers/burger-block}}
-        {{/unless}}
-        {{/each}}
-      </ul>
-    </div>
+<h1>Eat-Da-Burger!</h1>
 
-    <div class="toeat col-sm-4">
-      <h5 class="text-center py-1">BURGERS YOU ANNIHALATED!</h5>
-      <ul class="burgers-devoured">
-        {{#each burger_data}}
-        {{#if devoured}}
-        {{> burgers/burger-block}}
-        {{/if}}
-        {{/each}}
-      </ul>
-    </div>
+<div class="row">
+  <div class="col-6 burgers">
+    <h2><u>Eat It List</u></h2>
+    {{#each burgers}}
+    {{#unless devoured}}
+    <ol class="uneaten">{{burger_name}}<button data-id="{{id}}" class="update-button btn btn-sm btn-warning">Stuff It
+      </button><button data-id="{{id}}" class="delete-button btn btn-sm btn-warning">Delete</button></ol>
+    {{/unless}}
+    {{/each}}
+  </div>
+
+  <div class="col-6 burgers">
+    <h2><u>Devour It List</u></h2>
+    {{#each burgers}}
+    {{#if devoured}}
+    <ol class="eaten">{{burger_name}}<button data-id="{{id}}"
+        class="delete-button btn btn-sm btn-warning">Delete</button></ol>
+    {{/if}}
+    {{/each}}
   </div>
 </div>
+
+<div class="row">
+  <div class="col form-container">
+    <div class="form-box">
+      <h2>Add Your Burger:</h2>
+      <form class="create-form">
+        <div class="form-group">
+          <input type="text" id="burger" name="name">
+          <button class="btn btn-lg btn-success border-white" type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
 </div>
