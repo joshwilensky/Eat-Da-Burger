@@ -100,4 +100,4 @@ joshwilensky@gmail.com
 
 ### <a name="Github"></a>GitHub Account:
 
-http://github.com/joshwilensky
+[Joshua Wilensky](http://github.com/joshwilensky)
