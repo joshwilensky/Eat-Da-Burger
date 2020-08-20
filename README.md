@@ -86,6 +86,10 @@ SOFTWARE.
 
 ---
 
+### <a name="Deployment"></a>Deployment:
+
+**Heroku --**
+
 ### <a name="Questions"></a>Email the Author:
 
 joshwilensky@gmail.com
